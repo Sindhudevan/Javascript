@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="stopwatch.css">
+    <script  type="text/javascript" src="stopwatch.js"></script>
+</head>
+<body>
+    <div class="circle">
+        <div class="displayarea">
+          <p id="maintimer">00:00:00:00</p>
+          <p id="min-Displaytimer">0</p>
+        </div>
+
+ <div id="areas">
+    <div class="playarea">
+        <i class="fa fa-play" id="start" aria-hidden="true" onClick="startTimer()"></i>
+        <i class="fa fa-pause" id="stop" aria-hidden="true" onClick="pauseTimer()"></i>
+    </div>
+    <div class="resetarea">
+            <i class="fa fa-retweet" id="reset" onClick="resetTimer()" aria-hidden="true"></i>
+        </div>
+</div>
+
+    </div>
+    
+</body>
+</html>
